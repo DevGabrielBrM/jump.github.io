@@ -14,6 +14,49 @@
     background: linear-gradient(#87CEEB,#E0F6FF);
 }
 
+.record-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.record-label {
+    margin-right: 5px;
+}
+
+.record {
+    color: #ff0000; /* Cor vermelha para destacar */
+}
+
+
+.score-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.score-label {
+    margin-right: 5px;
+}
+
+.score {
+    color: #ff0000; /* Cor vermelha para destacar */
+}
+
 .pipe {
     position: absolute;
     bottom: 0;
